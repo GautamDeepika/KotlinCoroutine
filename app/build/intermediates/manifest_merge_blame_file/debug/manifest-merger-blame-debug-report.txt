@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mindorks.example.coroutines"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:7:5-51:19
+14        android:allowBackup="true"
+14-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.2] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\68600a5be4367d49d50b69b04e4caf8f\core-1.3.2\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity android:name="com.mindorks.example.coroutines.MainActivity" >
+23-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:14:9-20:20
+23-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:14:19-47
+24            <intent-filter>
+24-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:21:9-23:59
+31            android:name="com.mindorks.example.coroutines.learn.retrofit.single.SingleNetworkCallActivity"
+31-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:22:13-76
+32            android:label="@string/single_network_call" />
+32-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:23:13-56
+33        <activity
+33-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:24:9-26:60
+34            android:name="com.mindorks.example.coroutines.learn.retrofit.series.SeriesNetworkCallsActivity"
+34-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:25:13-77
+35            android:label="@string/series_network_calls" />
+35-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:26:13-57
+36        <activity
+36-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:27:9-29:62
+37            android:name="com.mindorks.example.coroutines.learn.retrofit.parallel.ParallelNetworkCallsActivity"
+37-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:28:13-81
+38            android:label="@string/parallel_network_calls" />
+38-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:29:13-59
+39        <activity
+39-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:30:9-32:53
+40            android:name="com.mindorks.example.coroutines.learn.room.RoomDBActivity"
+40-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:31:13-54
+41            android:label="@string/room_database" />
+41-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:32:13-50
+42        <activity
+42-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:33:9-35:47
+43            android:name="com.mindorks.example.coroutines.learn.timeout.TimeoutActivity"
+43-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:34:13-58
+44            android:label="@string/timeout" />
+44-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:35:13-44
+45        <activity
+45-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:36:9-38:55
+46            android:name="com.mindorks.example.coroutines.learn.errorhandling.trycatch.TryCatchActivity"
+46-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:37:13-74
+47            android:label="@string/try_catch_error" />
+47-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:38:13-52
+48        <activity
+48-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:39:9-41:57
+49            android:name="com.mindorks.example.coroutines.learn.errorhandling.exceptionhandler.ExceptionHandlerActivity"
+49-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:40:13-90
+50            android:label="@string/exception_handler" />
+50-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:41:13-54
+51        <activity
+51-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:42:9-44:65
+52            android:name="com.mindorks.example.coroutines.learn.errorhandling.supervisor.IgnoreErrorAndContinueActivity"
+52-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:43:13-90
+53            android:label="@string/ignore_error_and_continue" />
+53-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:44:13-62
+54        <activity
+54-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:45:9-47:57
+55            android:name="com.mindorks.example.coroutines.learn.task.onetask.LongRunningTaskActivity"
+55-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:46:13-71
+56            android:label="@string/long_running_task" />
+56-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:47:13-54
+57        <activity
+57-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:48:9-50:62
+58            android:name="com.mindorks.example.coroutines.learn.task.twotasks.TwoLongRunningTasksActivity"
+58-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:49:13-76
+59            android:label="@string/two_long_running_tasks" />
+59-->C:\Users\deepika\Downloads\Kotlin-Coroutines-Android-Examples-master\Kotlin-Coroutines-Android-Examples-master\app\src\main\AndroidManifest.xml:50:13-59
+60
+61        <service
+61-->[androidx.room:room-runtime:2.2.6] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\c79bccabbdbdedc2508a9a296f8ff7b3\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+62            android:name="androidx.room.MultiInstanceInvalidationService"
+62-->[androidx.room:room-runtime:2.2.6] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\c79bccabbdbdedc2508a9a296f8ff7b3\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+63            android:directBootAware="true"
+63-->[androidx.room:room-runtime:2.2.6] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\c79bccabbdbdedc2508a9a296f8ff7b3\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+64            android:exported="false" />
+64-->[androidx.room:room-runtime:2.2.6] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\c79bccabbdbdedc2508a9a296f8ff7b3\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+65
+66        <provider
+66-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\86dcaaad5b3490e72e97f20f84b959c9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+67            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\86dcaaad5b3490e72e97f20f84b959c9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+68            android:authorities="com.mindorks.example.coroutines.lifecycle-process"
+68-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\86dcaaad5b3490e72e97f20f84b959c9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+69            android:exported="false"
+69-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\86dcaaad5b3490e72e97f20f84b959c9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+70            android:multiprocess="true" />
+70-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\deepika\.gradle\caches\transforms-2\files-2.1\86dcaaad5b3490e72e97f20f84b959c9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+71    </application>
+72
+73</manifest>

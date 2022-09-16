@@ -1,0 +1,12 @@
+com/mindorks/example/coroutines/data/local/dao/UserDao_Impl.java
+ com.mindorks.example.coroutines.data.local.dao.UserDao_Impl
+ com.mindorks.example.coroutines.data.local.dao.UserDao_Impl$1
+ com.mindorks.example.coroutines.data.local.dao.UserDao_Impl$2
+ com.mindorks.example.coroutines.data.local.dao.UserDao_Impl$3
+ com.mindorks.example.coroutines.data.local.dao.UserDao_Impl$4
+ com.mindorks.example.coroutines.data.local.dao.UserDao_Impl$5
+com/mindorks/example/coroutines/data/local/AppDatabase_Impl.java
+ com.mindorks.example.coroutines.data.local.AppDatabase_Impl
+ com.mindorks.example.coroutines.data.local.AppDatabase_Impl$1
+com/mindorks/example/coroutines/BuildConfig.java
+ com.mindorks.example.coroutines.BuildConfig
